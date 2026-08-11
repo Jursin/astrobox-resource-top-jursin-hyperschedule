@@ -3,9 +3,16 @@
     "id": "com.schedule.vela",
     "restype": "quick_app",
     "name": "腕上课程表",
-    "description": "一款适用于 Xiaomi Vela OS 操作系统的课程表快应用，让每一次查看课表都抬腕即得",
+    "description": "一款支持导入拾光课程表、WakeUp课程表和 CSES 配置文件的课程表快应用，让每一次查看课表都抬腕即得",
     "preview": [
-      "media/banner.png"
+      "media/banner.png",
+      "media/1.png",
+      "media/2.png",
+      "media/3.png",
+      "media/4.png",
+      "media/5.png",
+      "media/6.png",
+      "media/7.png"
     ],
     "icon": "media/logo.png",
     "cover": "media/banner.png",
@@ -23,9 +30,14 @@
       "icon": "https://blog.jursin.top/avatar.png"
     },
     {
-      "title": "米坛社区",
-      "url": "https://www.bandbbs.cn/resources/5772/",
-      "icon": "https://static.cloudflare.ltd/Bandbbs_CDN/bandbbslogo/favicon_32.png"
+      "title": "GitHub 仓库",
+      "url": "https://github.com/Jursin/Schedule-Vela",
+      "icon": "https://github.githubassets.com/favicons/favicon.png"
+    },
+    {
+      "title": "爱发电",
+      "url": "https://ifdian.net/a/jursin",
+      "icon": "https://static.afdiancdn.com/static/img/logo/logo.png"
     }
   ],
   "downloads": {
