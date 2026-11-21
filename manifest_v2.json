@@ -1,14 +1,19 @@
 {
   "item": {
-    "id": "com.schedule.vela",
+    "id": "com.hyperschedule.app",
     "restype": "quick_app",
-    "name": "腕上课程表",
-    "description": "一款支持导入拾光课程表、WakeUp课程表、星链课表和 CSES 配置文件的课程表快应用，让每一次查看课表都抬腕即得",
+    "name": "HyperSchedule",
+    "description": "HyperSchedule 手环端快应用（原「腕上课程表」），需从 HyperSchedule 移动端推送数据",
     "preview": [
-      "media/banner.png",
-      "media/Xiaomi-Band.png",
-      "media/Xiaomi-Band-10.png",
-      "media/Xiaomi-Band-Pro.png"
+      "media/1.png",
+      "media/2.png",
+      "media/3.png",
+      "media/4.png",
+      "media/5.png",
+      "media/6.png",
+      "media/7.png",
+      "media/8.png",
+      "media/9.png"
     ],
     "icon": "media/logo.png",
     "cover": "media/banner.png",
@@ -26,8 +31,13 @@
       "icon": "https://blog.jursin.top/avatar.png"
     },
     {
-      "title": "GitHub 仓库",
-      "url": "https://github.com/Jursin/Schedule-Vela",
+      "title": "手环端仓库",
+      "url": "https://github.com/Jursin/HyperSchedule-for-Band",
+      "icon": "https://github.githubassets.com/favicons/favicon.png"
+    },
+    {
+      "title": "移动端仓库",
+      "url": "https://github.com/Jursin/HyperSchedule",
       "icon": "https://github.githubassets.com/favicons/favicon.png"
     },
     {
@@ -38,48 +48,84 @@
   ],
   "downloads": {
     "xmb9": {
-      "version": "2.0.2",
-      "file_name": "downloads/com.schedule.vela.release.2.0.2.rpk",
-      "versionCode": 14,
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16,
       "updatelogs": [
         {
+          "version": "2.1.1",
+          "content": "· 破坏性更改\n为适配新开发的移动端应用修改了快应用包名，需要重新安装且不会继承原有快应用数据\n移除开学日期、学期周数设置，只可通过移动端应用推送配置\n· 新增\n支持课程备注与节次显示\n支持将设备信息、快应用版本回传到手机显示\n· 优化\n课前倒计时提前量跟随接收的配置\n优化剩余时间显示\n进入设置页/详情页再返回时仍停留在原先位置\n冷启动时直接跳转到即将/正在上课的课程\n设置页清除配置改为清空课表存储与重置偏好设置"
+        },
+        {
           "version": "2.0.2",
-          "content": "## 改进\n\n- 个性化页面添加回弹动画\n- 上课倒计时改为仅课前30分钟内显示\n\n## 修复\n\n- 修复下一节课地点前显示重复@符号的问题\n- 修复详情页状态切换不及时的问题"
+          "content": "· 改进\n个性化页面添加回弹动画\n上课倒计时改为仅课前30分钟内显示\n· 修复\n修复下一节课地点前显示重复@符号的问题\n修复详情页状态切换不及时的问题"
         }
       ]
     },
     "xmb9p": {
-      "version": "2.0.2",
-      "file_name": "downloads/com.schedule.vela.release.2.0.2.rpk",
-      "versionCode": 14,
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16,
       "updatelogs": [
         {
+          "version": "2.1.1",
+          "content": "· 破坏性更改\n为适配新开发的移动端应用修改了快应用包名，需要重新安装且不会继承原有快应用数据\n移除开学日期、学期周数设置，只可通过移动端应用推送配置\n· 新增\n支持课程备注与节次显示\n支持将设备信息、快应用版本回传到手机显示\n· 优化\n课前倒计时提前量跟随接收的配置\n优化剩余时间显示\n进入设置页/详情页再返回时仍停留在原先位置\n冷启动时直接跳转到即将/正在上课的课程\n设置页清除配置改为清空课表存储与重置偏好设置"
+        },
+        {
           "version": "2.0.2",
-          "content": "## 改进\n\n- 个性化页面添加回弹动画\n- 上课倒计时改为仅课前30分钟内显示\n\n## 修复\n\n- 修复下一节课地点前显示重复@符号的问题\n- 修复详情页状态切换不及时的问题"
+          "content": "· 改进\n个性化页面添加回弹动画\n上课倒计时改为仅课前30分钟内显示\n· 修复\n修复下一节课地点前显示重复@符号的问题\n修复详情页状态切换不及时的问题"
         }
       ]
     },
     "xmb10": {
-      "version": "2.0.2",
-      "file_name": "downloads/com.schedule.vela.release.2.0.2.rpk",
-      "versionCode": 14,
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16,
       "updatelogs": [
         {
+          "version": "2.1.1",
+          "content": "· 破坏性更改\n为适配新开发的移动端应用修改了快应用包名，需要重新安装且不会继承原有快应用数据\n移除开学日期、学期周数设置，只可通过移动端应用推送配置\n· 新增\n支持课程备注与节次显示\n支持将设备信息、快应用版本回传到手机显示\n· 优化\n课前倒计时提前量跟随接收的配置\n优化剩余时间显示\n进入设置页/详情页再返回时仍停留在原先位置\n冷启动时直接跳转到即将/正在上课的课程\n设置页清除配置改为清空课表存储与重置偏好设置"
+        },
+        {
           "version": "2.0.2",
-          "content": "## 改进\n\n- 个性化页面添加回弹动画\n- 上课倒计时改为仅课前30分钟内显示\n\n## 修复\n\n- 修复下一节课地点前显示重复@符号的问题\n- 修复详情页状态切换不及时的问题"
+          "content": "· 改进\n个性化页面添加回弹动画\n上课倒计时改为仅课前30分钟内显示\n· 修复\n修复下一节课地点前显示重复@符号的问题\n修复详情页状态切换不及时的问题"
         }
       ]
     },
     "xmb10nfc": {
-      "version": "2.0.2",
-      "file_name": "downloads/com.schedule.vela.release.2.0.2.rpk",
-      "versionCode": 14,
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16,
       "updatelogs": [
         {
+          "version": "2.1.1",
+          "content": "· 破坏性更改\n为适配新开发的移动端应用修改了快应用包名，需要重新安装且不会继承原有快应用数据\n移除开学日期、学期周数设置，只可通过移动端应用推送配置\n· 新增\n支持课程备注与节次显示\n支持将设备信息、快应用版本回传到手机显示\n· 优化\n课前倒计时提前量跟随接收的配置\n优化剩余时间显示\n进入设置页/详情页再返回时仍停留在原先位置\n冷启动时直接跳转到即将/正在上课的课程\n设置页清除配置改为清空课表存储与重置偏好设置"
+        },
+        {
           "version": "2.0.2",
-          "content": "## 改进\n\n- 个性化页面添加回弹动画\n- 上课倒计时改为仅课前30分钟内显示\n\n## 修复\n\n- 修复下一节课地点前显示重复@符号的问题\n- 修复详情页状态切换不及时的问题"
+          "content": "· 改进\n个性化页面添加回弹动画\n上课倒计时改为仅课前30分钟内显示\n· 修复\n修复下一节课地点前显示重复@符号的问题\n修复详情页状态切换不及时的问题"
         }
       ]
+    },
+    "xmb10p": {
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16
+    },
+    "xmb11": {
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16
+    },
+    "xmb11nfc": {
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16
+    },
+    "xmrw6": {
+      "version": "2.1.1",
+      "file_name": "downloads/com.hyperschedule.app.release.2.1.1.rpk",
+      "versionCode": 16
     }
   },
   "ext": {}
