@@ -1,2 +1,2 @@
-# astrobox-resource-com-hyperschedule-app
+# astrobox-resource-top-jursin-hyperschedule
 AstroBox resource of HyperSchedule
